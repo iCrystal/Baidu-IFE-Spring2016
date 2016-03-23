@@ -1,0 +1,101 @@
+#content {
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+#header{
+	position: relative;
+	background-color: #333;
+	height: 60px;
+}
+.logo{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.list{
+	position: absolute;
+	right: 0px;
+	top: 24px;
+}
+.list li{
+	margin-right: 20px;
+	float: left;
+}
+.list a{
+	color: white;
+	text-decoration: none;
+}
+.list a:hover{
+	color: #aba8aa;
+}
+
+#main {
+	padding: 20px;
+	background-color: #dedede;
+}
+#left {
+	background-color: #fff;
+	float: left;
+	margin-right: 20px;
+	font-size: 14px;
+}
+#right {
+	padding: 20px;
+	float: left;
+	background-color: #fff;
+	border: 1px solid red;
+}
+.main-content {
+	width: 320px;
+}
+.title {
+	font-size: 16px;
+	line-height: 40px;
+	font-weight: bloder;
+	border-left: 2px solid #cbcbcb;
+}
+.title h2{
+	margin-left: 12px;
+	margin-right: 36px;
+} 
+.email {
+	margin-top: 12px;
+}
+.email span{
+	margin-left: 14px;
+}
+.email p{
+	margin-top: 14px;
+	margin-left: 112px;
+	color: #a5a1b7;
+}
+.password {
+	margin-top: 25px;
+}
+.first-password{
+	margin-left: 40px;
+}
+.again-password {
+	margin-top: 12px;
+}
+.password-point {
+	margin-top: 14px;
+	margin-left: 100px;
+	color: #a5a1b7;
+}
+.sex{
+	margin-top: 
+}
+#footer {
+	display: none;
+	position: relative;
+	background-color: #000;
+	height: 70px;
+}
+.copyright {
+	position: absolute;
+	left: 50%;
+	margin-left: -36px;
+	color: white;
+	font-size: 16px;
+	line-height: 70px;
+}
