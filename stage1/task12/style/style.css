@@ -1,0 +1,91 @@
+body{
+	font-family: "Microsoft Yahei";
+	margin: 0;
+	padding:0;
+}
+table tr th{
+	color: #fff;
+	background-color: #000;
+	text-align: left;
+}
+.red-marks{
+	color: red;
+}
+/*偶数odd,奇数even*/
+table tr:nth-child(odd){
+	background-color: #ccc;
+}
+/*table tr:nth-child(2n+1){
+	background-color:#ccc;
+}*/
+input{
+	margin-top: 50px;
+	width: 100px;
+	height: 15px;
+	transition:width 1s ease-in;
+	outline: none;
+}
+form input:focus{
+	width: 200px;
+}
+ul li{
+	list-style: none;
+}
+#slider{
+	position: relative;
+	margin-top: 50px;
+	width: 300px;
+	height: 120px;
+	overflow: hidden;
+}
+.color{
+	position: absolute;
+	width: 300px;
+	height: 120px;
+}
+#box1{
+	left: 0px;
+	background-color: blue;
+}
+#box2{
+	left: 300px;
+	background-color: green;
+	transition:left 2s;
+}
+#box3{
+	left: 600px;
+	background-color:red;
+	transition:left 2s;
+}
+.num{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	color: #fff;
+	text-align: center;
+	background-color: #ccc;
+	opacity: 0.5;
+	text-decoration: none;
+}
+#one{
+	bottom: 0;
+	right: 60px;
+}
+#two{
+	bottom: 0;
+	right: 30px;
+}
+#three{
+	bottom:0;
+	right: 0px;
+}
+#slider ul{
+	position: relative;
+	animation: anims 10s infinite ease-in-out alternate;
+}
+@keyframes anims{
+	0%{left: 0;}
+	50%{left: -300px;}
+	100%{left: -600px;}
+}
+
